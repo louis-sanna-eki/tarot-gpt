@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "astronomy-gpt"
+version = "0.1.0"
+description = ""
+authors = ["Louis Sanna <louis.sanna@ekimetrics.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+httpx = "^0.25.1"
+modal = "^0.55.4091"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
